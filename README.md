@@ -16,12 +16,14 @@ A Telegram bot that allows users to download YouTube videos and audio with simpl
 - Libraries: 
   - telebot
   - yt_dlp
+  - threading
+  - Queue
 
 ## Installation
 ```bash
 git clone https://github.com/s4rrar/iiMeow-Video-Downloader.git
 cd iiMeow-Video-Downloader
-pip install telebot yt_dlp
+pip install telebot yt_dlp threading Queue
 python bot.py
 ```
 
